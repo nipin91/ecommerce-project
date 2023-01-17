@@ -1,0 +1,36 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+    .fav-indicator {
+        position: relative;
+        display: inline-flex;
+
+        .favorite-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 18px;
+            margin-top: 9px;
+        }
+    }
+
+    span {
+        position: absolute;
+        top: 6px;
+        right: 17px;
+        background: #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

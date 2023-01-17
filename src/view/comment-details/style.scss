@@ -1,0 +1,30 @@
+
+.comment-page-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/user-welcome-bg.webp');
+
+    .detail-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.35);
+        overflow: scroll;
+        flex-direction: column;
+        align-items: center;
+
+        .heading {
+            color: #fff;
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+
+        .post-comment-list {
+            list-style: none;
+            padding: 0;
+        }
+    }
+}
